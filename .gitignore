@@ -7,3 +7,4 @@ test_elsapy.py
 /test_data
 /logs
 /old_scripts
+/__pycache__
