@@ -506,21 +506,4 @@ with open(str(directory+"google_scholar"+filename)) as data_file:
 maScopCount = 0
 gsScopCount = 0
 gsMaCount = 0
-"""(maScopCount, questionCountTitle) = matchTitle (maJson400, scopusJson400, "maID", "scopusID", maScopCount)
-(gsScopCount, questionCountTitle) = matchTitle (gsJson400, scopusJson400, "gsID", "scopusID", gsScopCount)
-(gsMaCount, questionCountTitle) = matchTitle (gsJson400, maJson400, "gsID", "maID", gsMaCount)
-"""
-#(titlecount, questionCountTitle) = matchTitle (gsJson400, scopusJson400, gsScopCount)
-#(titlecount, questionCountTitle) = matchTitle (gsJson400, maJson400, gsMaCount)
-"""
-with open('overlap_400_matches2.json', 'w') as fp:
-    json.dump(matchedRecords, fp)
-    
-with open('overlap_400_matches2_CONFLICTS.json','w') as fp:
-    json.dump(matchedRecordsConflict, fp)
-"""    
-
-
-#(titlecount, questionCountTi) = matchTitle (maJson, gsJson, titlecount)
-
-#match DOIs -> scopus & MA; see if years similar and titles the same -> merge; otherwise - ask    
+"""(maScopCount, questionCountTitle) = matchTitle (maJson400, sco
